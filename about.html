@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MK learning</title>
+        <meta charset="UTF-8">
+        <meta name="learning" content="Education website">
+        <link rel="stylesheet" href="Style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <script src="App.js"></script>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    </head>
+</html>
+<body>
+    <header>
+        <div class="bg-image" class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+              <a class="navbar-brand" >
+                    <p class="logo"> MK learning</p>
+                  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  
+                  <button  class="login-trigger" value="Signup" onclick="div_show()" id="popup">Signup                
+                  </button>
+                  <button class="login-trigger" value="login" onclick="show()">Login                
+                  </button>
+                  <div id="def">
+                    <div id="popupContact">
+                      <form action="#" id="form" method="POST" name="form">
+                        
+                        <img id="close" src="remove.ico" onclick ="div_hide()">
+                        <h2>Login</h2>
+                          <hr>
+                        <input id="name" name="name" placeholder="Name or email address" type="text">
+                        <input id="password" name="password" type="password" placeholder="Password">
+                        <br>
+                        <br>
+                        <a href="javascript:%20check_empty()" id="submit">Login</a>
+                      </form>
+                    </div>
+                  </div>
+                  <div id="abc">
+                  <div id="popupContact">
+        
+                    
+                  <form action="#" id="form2" method="post" name="form">
+                    <img id="close" src="images/remove.ico" onclick ="div_hide()">
+                    <h2>Create new account</h2>
+                    <hr>                  
+                    <input id="name" name="name" placeholder="Name" type="text">                  
+                    <input id="email" name="email" placeholder="Email" type="text">
+                    <br>
+                    <p><input id="radio" type="radio" name="gender" value="Male">Male</p>
+                    <p><input id="radio" type="radio" name="gender" value="female">Female</p>                  
+                    Date of Birth:<br>
+                    <input type="date">
+                    <input type="password" name="password" id="Password" placeholder="password">
+                    <input type="password" name="password" id="Password" placeholder="Confirm Password">                  
+                    <br>
+                    <input type="checkbox" required="required" name="rules">Accept terms and conditions of organization
+                    <a href="javascript:%20check_empty()" id="submit">Signup</a>
+                  </form>
+                </div>
+                </div>
+                </ul>
+                </div>
+              </div>
+            </nav>
+          </div>  
+    </header>
+    <main>
+
+      <div class="Intro">
+        <h1 class="intro-title">BackGround</h1>
+        <p>Hi, there is <b>Munib-ul-hassan(Director of MK learning institute).</b>I completed my studies. After passing intermediate from S.M sci college i was got addmission in Sir Syed Universoty of enginnering and technology and i served myself as a home tutor for science students I have more experties in computer science at the same time i joined diffrent coachings and started teaching . In 2010 i opened my own institute and named as <b>Munib Khatri learning institute</b> where i and my hard work team provide coaching classes for ix to xii sci and commerce students. Late on soon i will start some basic computer classes such as ms office, graphics, adv excel and time to time i will provide more advanced cources like Data Science, Artificial intelligence, Programming languages and Now we are also offering MCAT and ECAT training for their preparation in top universities.</p>
+      <p>
+        I am thankful for the bottom of my heart to my team mates <b>Arshad shiwani, Yousuf parwani, Jhanzaib Khatri, Abdul Muqeet and others.</b>
+      </p>
+
+      
+    </main>
+    <footer class="page-footer font-small blue pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row ">
+          <div class="col-md-4 col-sm-12" id="foot">
+                        
+            <h5 class="text-uppercase">Visit Our Place</h5>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.393806147907!2d67.00089846456805!3d24.850396134058695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe135df6c18fa4627!2sKarachi%20Chamber%20of%20Commerce%20and%20Industry!5e0!3m2!1sen!2s!4v1590736250696!5m2!1sen!2s" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </p>   
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-4 col-sm-12" id="fooT">
+            
+            <h5 class="text-uppercase">Search Here</h5>
+            <div class="search">
+            <input type="text" class="search" >
+            <a href="#"><span><i class="fa fa-search fa-lg fa-light"></i></span></a>
+          </div>
+            
+    
+          </div>
+          
+    
+          
+          <div class="col-md-4 col-sm-12" id="fooT">
+    
+          
+            <h5 class="text-uppercase">Our links</h5>
+    
+            <ul class="links">
+              <li>
+                <i class="fa fa-whatsapp fa-lg" aria-hidden="true">
+                  <span class="cont"> +923-142059628 </span>
+                </i> 
+              </li>
+              <li>
+                <i class="fa fa-facebook fa-lg" aria-hidden="true">
+                  <a class="cont"target="_blank" href="https://www.facebook.com/munibkhatri.abdulghani">Munib Khatri</a>
+                </i> 
+
+              </li>
+              <li>
+                <i class="fa fa-twitter fa-lg" aria-hidden="true">
+                  <a href="#"class="cont">Twitter</a>
+                </i>
+              </li>
+              <li>
+                <i class="fa fa-instagram fa-lg"  aria-hidden="true">
+                  <a class="cont" href="#">Instagram</a>
+                </i> 
+              </li>
+              <li>
+                <i class="fa fa-youtube fa-lg"  aria-hidden="true">
+                  <a class="cont" target="_blank"href="https://www.youtube.com/channel/UCRWlFbYd4hdPPMA7AoJyLfA?view_as=subscriber">Youtube</a>
+                </i> 
+              </li>
+            </ul>
+    
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3" style="color: dimgrey;">© 2020 Copyright:
+        <a href="https://MKlearning.com/"> MKlearning.com</a>
+      </div>  
+    </footer>
+    
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
